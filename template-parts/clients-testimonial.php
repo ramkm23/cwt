@@ -48,14 +48,19 @@
             <?php if(have_rows('clients-detail')):?>
                 <?php while(have_rows('clients-detail')): the_row(); ?>
                 <div class="testimonial-item">
-                <p>
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                <?php if(!empty(get_sub_field('client-text'))): ?>
+                    <?php echo get_sub_field('client-text'); ?>
+                <?php endif; ?>
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="<?php echo get_sub_field( 'clients-image' )[ 'url' ]; ?>" class="testimonial-img" alt="<?php echo get_sub_field( 'clients-image' )[ 'alt' ]; ?>">
+                <?php if(!empty(get_sub_field('client-text'))): ?>
+                    <h3><?php echo get_sub_field('client-text'); ?></h3>
+                <?php endif; ?>
+                <?php if(!empty(get_sub_field('client-text'))): ?>
+                    <h4><?php echo get_sub_field('client-text'); ?></h4>
+                <?php endif; ?>
             </div>   
                 <?php endwhile; ?>
             <?php endif; ?>
