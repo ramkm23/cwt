@@ -2,7 +2,7 @@
     /*Template Name: Home Template */
     get_header();
 ?>
-  <section id="intro">
+<section id="intro">
 
     <div class="intro-content">
       <h2>GET <span>YOUR DREAM</span><br>LIVE!</h2>
@@ -20,7 +20,7 @@
       <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/5.jpg');"></div>
     </div>
 
-  </section>
+</section>
 <!-- Get Basic Content Template -->
 <?php //get_template_part('template-parts/most-popular-news'); ?>
 <div id="content" role="main">
