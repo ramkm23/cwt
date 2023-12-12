@@ -1,7 +1,6 @@
 <?php if( get_sub_field( 'include-background-image-slider' ) == 'Yes' ) :?>
     <section id="intro">
         <div class="intro-content">
-            <h2>GET <span>YOUR DREAM</span><br>LIVE!</h2>
             <?php if(get_sub_field('background-image-slider-heading')) : ?>
                 <h2><?php echo get_sub_field('background-image-slider-heading'); ?></h2>
             <?php endif; ?>
