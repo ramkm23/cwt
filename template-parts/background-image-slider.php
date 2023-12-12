@@ -11,11 +11,11 @@
             </div>
         </div>
         <div id="intro-carousel" class="owl-carousel" >
-            <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/1.jpg');"></div>
-            <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/2.jpg');"></div>
-            <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/3.jpg');"></div>
-            <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/4.jpg');"></div>
-            <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/intro-carousel/5.jpg');"></div>
+            <?php if(have_rows('background-slider-image')):?>
+                <?php while(have_rows('background-slider-image')): the_row(); ?>
+                    <div class="item" style="background-image: url('<?php echo get_sub_field( 'Backgrond-slider-image' )[ 'url' ]; ?>"></div>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
     </section>
 <?php endif;?>
