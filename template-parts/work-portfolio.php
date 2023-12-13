@@ -17,10 +17,10 @@
                 <?php while(have_rows('work-portfolio-image')): the_row(); ?>
                 <div class="col-lg-3 col-md-4">
                     <div class="portfolio-item wow fadeInUp">     
-                    <a href="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'url' ]; ?>" class="portfolio-popup">  
+                    <a href="<?php echo get_sub_field( 'work-portfolio-full-image' )[ 'url' ]; ?>" class="portfolio-popup">  
                     <img src="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'url' ]; ?>" class="clientlogo" alt="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'alt' ]; ?>">
                         <div class="portfolio-overlay">
-                        <div class="portfolio-info"><h2 class="wow fadeInUp">View Url</h2></div>
+                        <div class="portfolio-info"><h2 class="wow fadeInUp"><i class="fa fa-eye"></i></h2></div>
                         </div>
                     </a>
                     </div>
