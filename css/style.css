@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h2 {
   font-size: 32px;
   color: #0c2e8a;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
