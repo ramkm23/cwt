@@ -174,21 +174,11 @@ function hide_editor() {
 add_action( 'admin_init', 'hide_editor' );
 
 
-/**
- * Enqueue scripts and styles.
- */
-
+/** Enqueue scripts and styles */
 function cwt_scripts() {
-	wp_enqueue_style( 'cwt-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'cwt-style', 'rtl', 'replace' );
-    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/css/main-style.css', array(), '1.1', 'all' );
-    wp_enqueue_style( 'bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', array(), '1.1', 'all' );
 	wp_enqueue_style( 'font-awesome', '//use.fontawesome.com/releases/v5.7.2/css/all.css' );
-	wp_enqueue_script( 'cwt-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+	wp_enqueue_style( 'cwt-main-style', get_template_directory_uri() . '/css/main-style.css' );
+	//wp_enqueue_script( 'up-college-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1', true );
+	//wp_enqueue_script('up-college-program-search-js', get_theme_file_uri('/js/programSearch.js'), array('jquery'), '1.0', true);
 }
-
-
+add_action( 'wp_enqueue_scripts', 'cwt_scripts' );
