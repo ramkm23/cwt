@@ -14,32 +14,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/animate/animate.min.css" rel="stylesheet">
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: Reveal
-    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 <?php get_template_part( 'template-parts/top-bar' );?>
 
-  <!--==========================
-    Header
-  ============================-->
  <body>
 	<?php if( !empty( get_field( 'other-site-body-script', 'option') ) ): ?>
 		<?php echo get_field( 'other-site-body-script', 'option' ); ?>

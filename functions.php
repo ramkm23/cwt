@@ -176,8 +176,16 @@ add_action( 'admin_init', 'hide_editor' );
 
 /** Enqueue scripts and styles */
 function cwt_scripts() {
-	wp_enqueue_style( 'font-awesome', '//use.fontawesome.com/releases/v5.7.2/css/all.css' );
+	//wp_enqueue_style( 'font-awesome', '//use.fontawesome.com/releases/v5.7.2/css/all.css' );
 	wp_enqueue_style( 'cwt-main-style', get_template_directory_uri() . '/css/main-style.css' );
+	wp_enqueue_style( 'boostrap-style', get_template_directory_uri() . '/lib/bootstrap/css/bootstrap.min.css' );
+	wp_enqueue_style( 'font-style', get_template_directory_uri() . '/lib/font-awesome/css/font-awesome.min.css' );
+	wp_enqueue_style( 'animate-style', get_template_directory_uri() . '/lib/animate/animate.min.css' );
+	wp_enqueue_style( 'ionicons-style', get_template_directory_uri() . '/lib/ionicons/css/ionicons.min.css' );
+	wp_enqueue_style( 'carousel-style', get_template_directory_uri() . '/lib/owlcarousel/assets/owl.carousel.min.css' );
+	wp_enqueue_style( 'magnific-style', get_template_directory_uri() . '/lib/magnific-popup/magnific-popup.css' );
+	wp_enqueue_style( 'ionicons-style', get_template_directory_uri() . '/lib/ionicons/css/ionicons.min.css' );
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css' );
 	//wp_enqueue_script( 'up-college-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1', true );
 	//wp_enqueue_script('up-college-program-search-js', get_theme_file_uri('/js/programSearch.js'), array('jquery'), '1.0', true);
 }
