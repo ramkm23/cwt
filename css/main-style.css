@@ -9,6 +9,112 @@
 /**$font-size-base * 1;**/
 /**$font-size-base * 1;**/
 @import url("https://use.typekit.net/dkg8yuc.css");
+@import url("https://use.typekit.net/dkg8yuc.css");
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../font/GT Walsheim/GTWalsheim.ttf"), url("../font/GT Walsheim/GTWalsheim.ttf") format("ttf"); /* Modern Browsers */
+  font-weight: 700;
+}
+.content a:not(.btn) {
+  color: #4db2ec;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  text-decoration: none;
+}
+
+.content a:visited:not(.btn) {
+  color: #4db2ec;
+}
+
+body {
+  color: #000 !important;
+  background-color: #FFFFFF;
+  font-weight: normal;
+  line-height: 30px;
+  background-image: url("http://thebharatnews.net/wp-content/uploads/2019/10/back.jpg");
+}
+body a {
+  color: #000;
+}
+body a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    margin-top: 0px;
+  }
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.text-primary {
+  color: #000 !important;
+}
+
+.btn-primary {
+  border-color: #ca021e;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #ca021e;
+}
+
+.btn-primary:hover {
+  /*color: $primary;*/
+  background-color: #384756;
+  border-color: #384756;
+}
+
+.btn-secondary {
+  border-color: #4db2ec;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #4db2ec;
+}
+
+.btn-secondary:hover {
+  /*color: $web-white;*/
+  background-color: #82871a;
+  border-color: #82871a;
+}
+
+.btn-info {
+  border-color: #F1F1F1;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #ca021e;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-info:hover {
+  color: #ca021e;
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
 @font-face {
   font-family: "GT Walsheim";
   src: url("../font/GT Walsheim/GTWalsheim.ttf"), url("../font/GT Walsheim/GTWalsheim.ttf") format("ttf"); /* Modern Browsers */
