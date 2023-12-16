@@ -132,8 +132,8 @@ body a:hover {
 
 body {
   background: #fff;
-  color: #444;
-  font-family: "Open Sans", sans-serif;
+  color: #444 !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 a {
