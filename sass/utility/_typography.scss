@@ -7,10 +7,8 @@
 
 @import url("https://use.typekit.net/dkg8yuc.css");
 
-
 $heading-font:            "GT Walsheim", Arial, sans-serif;
 $body-font:               aktiv-grotesk, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 
 .content a:not(.btn) {
     color: $secondary;
@@ -54,20 +52,12 @@ body {
         margin-top: 0px;
     }
 }
-
-.container {
-    background: #fff;
-    max-width: 1220px !important;
-}
-
 .lead {
     font-size: 20px;
 }
 .text-primary {
     color: $web-black !important;
 }
-
-
 .btn-primary {
     border-color: $primary;
     border-radius: 4px;
@@ -118,73 +108,3 @@ body {
     background-color: $tertiary-hover;
     border-color: $tertiary-hover;
 }
-
-
-.btn-info:not(:disabled):not(.disabled):active,
-.btn-info:not(:disabled):not(.disabled).active,
-.show>.btn-info.dropdown-toggle {
-	color: $primary;
-    background-color: $web-white;
-    border-color: $primary !important;
-}
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.show>.btn-primary.dropdown-toggle {
-	color: $primary;
-    background-color: $web-white !important;
-    border-color: $primary !important;
-}
-
-.btn-secondary:not(:disabled):not(.disabled):active,
-.btn-secondary:not(:disabled):not(.disabled).active,
-.show>.btn-secondary.dropdown-toggle {
-	color: $primary;
-    background-color: $web-white;
-    border-color: $primary;
-}
-
-.btn-info:not(:disabled):not(.disabled):active:focus,
-.btn-info:not(:disabled):not(.disabled).active:focus,
-.show>.btn-info.dropdown-toggle:focus,
-.btn-info:focus,
-.btn-info.focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-primary.dropdown-toggle:focus,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus,
-.btn-secondary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-secondary.dropdown-toggle:focus,
-.btn-secondary:focus,
-.btn-secondary.focus  {
-    box-shadow: 0 0 0 0.2rem rgb(41 111 94 / 50%);
-}
-/**
-    @media (max-width: 576px) {
-        h1,
-        .h1,
-        .display-1 {
-            font-size: 2rem;
-            line-height: 1.25;
-        }
-        h2,
-        .h2,
-        .display-2 {
-            font-size: 1.625rem;
-            line-height: 1.15384615;
-        }
-        h3,
-        .h3,
-        .display-3 {
-            font-size: 1.375rem;
-            line-height: 1.13636364;
-        }
-        h4,
-        .h4,
-        .display-4 {
-            font-size: 1.125rem;
-            line-height: 1.11111111;
-        }
-    }
-***/
