@@ -1,0 +1,196 @@
+/*Theme Color*/
+/*************/
+/***** Override SASS colour *****/
+/***** End Override SASS colour *****/
+/**2.77778em;$font-size-base * 1.9;**/
+/**1.33333em;$font-size-base * 1.7;**/
+/**$font-size-base * 1.4;**/
+/**$font-size-base * 1.2;**/
+/**$font-size-base * 1;**/
+/**$font-size-base * 1;**/
+@import url("https://use.typekit.net/dkg8yuc.css");
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../font/GT Walsheim/GTWalsheim.ttf"), url("../font/GT Walsheim/GTWalsheim.ttf") format("ttf"); /* Modern Browsers */
+  font-weight: 700;
+}
+.content a:not(.btn) {
+  color: #4db2ec;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  text-decoration: none;
+}
+
+.content a:visited:not(.btn) {
+  color: #4db2ec;
+}
+
+body {
+  color: #000 !important;
+  background-color: #FFFFFF;
+  font-weight: normal;
+  line-height: 30px;
+  background-image: url("http://thebharatnews.net/wp-content/uploads/2019/10/back.jpg");
+}
+body a {
+  color: #000;
+}
+body a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    margin-top: 0px;
+  }
+}
+
+.container {
+  background: #fff;
+  max-width: 1220px !important;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.text-primary {
+  color: #000 !important;
+}
+
+.btn-primary {
+  border-color: #ca021e;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #ca021e;
+}
+
+.btn-primary:hover {
+  /*color: $primary;*/
+  background-color: #384756;
+  border-color: #384756;
+}
+
+.btn-secondary {
+  border-color: #4db2ec;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #4db2ec;
+}
+
+.btn-secondary:hover {
+  /*color: $web-white;*/
+  background-color: #82871a;
+  border-color: #82871a;
+}
+
+.btn-info {
+  border-color: #F1F1F1;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #ca021e;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-info:hover {
+  color: #ca021e;
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: #ca021e;
+  background-color: #FFFFFF;
+  border-color: #ca021e !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #ca021e;
+  background-color: #FFFFFF !important;
+  border-color: #ca021e !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #ca021e;
+  background-color: #FFFFFF;
+  border-color: #ca021e;
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-info.dropdown-toggle:focus,
+.btn-info:focus,
+.btn-info.focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus,
+.btn-secondary:focus,
+.btn-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(41, 111, 94, 0.5);
+}
+
+/**
+    @media (max-width: 576px) {
+        h1,
+        .h1,
+        .display-1 {
+            font-size: 2rem;
+            line-height: 1.25;
+        }
+        h2,
+        .h2,
+        .display-2 {
+            font-size: 1.625rem;
+            line-height: 1.15384615;
+        }
+        h3,
+        .h3,
+        .display-3 {
+            font-size: 1.375rem;
+            line-height: 1.13636364;
+        }
+        h4,
+        .h4,
+        .display-4 {
+            font-size: 1.125rem;
+            line-height: 1.11111111;
+        }
+    }
+***/
+.footcont p {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main-style.css.map */
