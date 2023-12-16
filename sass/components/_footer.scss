@@ -1,0 +1,36 @@
+.site-footer {
+    background-color: $primary;
+    color: $web-white;
+    max-width: 1220px;
+    margin: auto;
+    .container {
+        background-color: $primary;
+        a {
+            color: $web-white;
+        }
+        a:hover{
+            color: $secondary;
+        }
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 15px;
+        padding: 9px 0px;
+    }
+} 
+.site-info {
+    .container {
+        padding: 0px;
+        .siteinfor {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
