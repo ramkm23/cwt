@@ -973,11 +973,11 @@
                                     "return_format": "array",
                                     "preview_size": "full",
                                     "library": "all",
-                                    "min_width": 1349,
-                                    "min_height": 400,
+                                    "min_width": 1500,
+                                    "min_height": 500,
                                     "min_size": "",
-                                    "max_width": 1349,
-                                    "max_height": 400,
+                                    "max_width": 1500,
+                                    "max_height": 500,
                                     "max_size": "",
                                     "mime_types": ""
                                 }
@@ -1010,6 +1010,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": false,
-    "modified": 1703270383
+    "show_in_rest": 0,
+    "modified": 1703273066
 }
