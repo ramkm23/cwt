@@ -1,20 +1,127 @@
+/*Theme Color*/
+/*************/
+/***** Override SASS colour *****/
+/***** End Override SASS colour *****/
+/**2.77778em;$font-size-base * 1.9;**/
+/**1.33333em;$font-size-base * 1.7;**/
+/**$font-size-base * 1.4;**/
+/**$font-size-base * 1.2;**/
+/**$font-size-base * 1;**/
+/**$font-size-base * 1;**/
+@import url("https://use.typekit.net/dkg8yuc.css");
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../font/GT Walsheim/GTWalsheim.ttf"), url("../font/GT Walsheim/GTWalsheim.ttf") format("ttf"); /* Modern Browsers */
+  font-weight: 700;
+}
+.content a:not(.btn) {
+  color: #017854;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  text-decoration: none;
+}
+
+.content a:visited:not(.btn) {
+  color: #017854;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-weight: normal;
+  line-height: 30px;
+  background-image: url("http://thebharatnews.net/wp-content/uploads/2019/10/back.jpg");
+}
+body a {
+  color: #000;
+}
+body a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    margin-top: 0px;
+  }
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.text-primary {
+  color: #000 !important;
+}
+
+.btn-primary {
+  border-color: #0c2e8a;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #0c2e8a;
+}
+
+.btn-primary:hover {
+  /*color: $primary;*/
+  background-color: #384756;
+  border-color: #384756;
+}
+
+.btn-secondary {
+  border-color: #017854;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #017854;
+}
+
+.btn-secondary:hover {
+  /*color: $web-white;*/
+  background-color: #82871a;
+  border-color: #82871a;
+}
+
+.btn-info {
+  border-color: #F1F1F1;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #0c2e8a;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
 /*
   Theme Name: Reveal
   Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 .mfp-img {
-    max-height: 100% !important;
+  max-height: 100% !important;
 }
 
-
 #logo {
-    margin-top: -6px;
+  margin-top: -6px;
 }
 
 body {
@@ -54,7 +161,6 @@ h6 {
 }
 
 /* Back to top button */
-
 .back-to-top {
   position: fixed;
   display: none;
@@ -83,13 +189,13 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar a {
-    line-height: 1;
-    color: #fff !important;
+  line-height: 1;
+  color: #fff !important;
 }
 
 #topbar {
-    color: white;
-  background: #0c2e8a;;
+  color: white;
+  background: #0c2e8a;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
@@ -134,7 +240,6 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
 #header {
   padding: 20px 0;
   height: 84px;
@@ -171,7 +276,6 @@ h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-
 #intro {
   width: 100%;
   height: 60vh;
@@ -257,7 +361,7 @@ h6 {
 }
 
 #intro #intro-carousel::before {
-  content: '';
+  content: "";
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
   height: 100%;
@@ -281,9 +385,7 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 /* Nav Menu Essentials */
-
 .nav-menu,
 .nav-menu * {
   margin: 0;
@@ -323,7 +425,6 @@ h6 {
 }
 
 /* Nav Menu Arrows */
-
 .sf-arrows .sf-with-ul {
   padding-right: 22px;
 }
@@ -342,14 +443,12 @@ h6 {
 }
 
 /* Nav Meu Container */
-
 #nav-menu-container {
   float: right;
   margin: 0;
 }
 
 /* Nav Meu Styling */
-
 .nav-menu a {
   padding: 10px 8px;
   text-decoration: none;
@@ -399,7 +498,6 @@ h6 {
 }
 
 /* Mobile Nav Toggle */
-
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -420,7 +518,6 @@ h6 {
 }
 
 /* Mobile Nav Styling */
-
 #mobile-nav {
   position: fixed;
   top: 0;
@@ -493,7 +590,6 @@ h6 {
 }
 
 /* Mobile Nav body classes */
-
 body.mobile-nav-active {
   overflow: hidden;
 }
@@ -509,10 +605,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-
 /* Sections Header
 --------------------------------*/
-
 .section-header {
   margin-bottom: 30px;
 }
@@ -527,7 +621,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -544,7 +638,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Section
 --------------------------------*/
-
 #about {
   padding: 60px 0 30px 0;
 }
@@ -598,7 +691,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Services Section
 --------------------------------*/
-
 #services {
   padding: 30px 0 0 0;
 }
@@ -658,7 +750,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Clients Section
 --------------------------------*/
-
 #clients {
   padding: 30px 0;
 }
@@ -666,7 +757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients img {
   max-width: 90%;
   opacity: 0.6;
-  border: 2px solid $primary;
+  border: 2px solid #0c2e8a;
   transition: 0.3s;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -675,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img:hover {
   opacity: 1;
-  border: 2px solid $secondary;
+  border: 2px solid #017854;
 }
 
 #clients .owl-nav,
@@ -699,7 +790,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Our Portfolio Section
 --------------------------------*/
-
 #portfolio {
   background: #fff;
   padding: 30px 0;
@@ -734,10 +824,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: capitalize;
   font-weight: 700;
 }
-#portfolio .portfolio-item :hover h2
-{
-  font-size:24px;
 
+#portfolio .portfolio-item :hover h2 {
+  font-size: 24px;
 }
 
 #portfolio .portfolio-item img {
@@ -765,7 +854,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Testimonials Section
 --------------------------------*/
-
 #testimonials {
   padding: 30px 0;
 }
@@ -839,7 +927,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-
 #call-to-action {
   background: #081e5b;
   background-size: cover;
@@ -877,7 +964,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Our Team Section
 --------------------------------*/
-
 #team {
   background: #fff;
   padding: 30px 0 0 0;
@@ -931,7 +1017,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-
 #contact {
   padding: 50px 0;
 }
@@ -1024,9 +1109,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   border: 1px solid gray;
 }
+
 .wpcf7-textarea {
   height: 150px;
 }
+
 .wpcf7-submit {
   transition: 0.4s;
   border-radius: 4px !important;
@@ -1035,6 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   cursor: pointer;
 }
+
 .wpcf7-submit:hover {
   background: #0a8f67;
 }
@@ -1042,10 +1130,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 #footer {
   background: #000;
-  color:white;
+  color: white;
   padding: 20px 0px;
   font-size: 14px;
 }
@@ -1070,13 +1157,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-email {
     padding: 20px 0;
   }
-
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
 }
-
 @media (min-width: 769px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
@@ -1093,123 +1178,112 @@ body.mobile-nav-active #mobile-nav-toggle {
     justify-content: flex-end;
   }
 }
-
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-
   #header {
     padding: 20px 0;
     height: 74px;
   }
-
   #header #logo h1 {
     font-size: 34px;
   }
-
   #header #logo img {
     max-height: 40px;
   }
-
   #nav-menu-container {
     display: none;
   }
-
   #mobile-nav-toggle {
     display: inline;
   }
-
   #about .about-img {
     height: auto;
   }
-
   #about .about-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
 }
-
 @media (max-width: 767px) {
   #intro .intro-content h2 {
     font-size: 34px;
   }
-
   #services .box .box {
     margin-bottom: 20px;
   }
-
   #services .box .icon {
     float: none;
     text-align: center;
     padding-bottom: 15px;
   }
-
   #services .box h4,
   #services .box p {
     margin-left: 0;
     text-align: center;
   }
-
   #testimonials .testimonial-item {
     margin: 30px 10px;
   }
 }
-
 @media (max-width: 576px) {
   #contact #google-map {
     margin-top: 20px;
   }
 }
-
-
-
 .footer-section i {
-    font-size: 22px;
+  font-size: 22px;
 }
+
 .footer-section {
-    background: #081e5b;
-    color: #c1bdbd;
-    padding: 20px 0px;
+  background: #081e5b;
+  color: #c1bdbd;
+  padding: 20px 0px;
 }
+
 .footer-section a {
-    font-size: 14px;
-    color: white;
+  font-size: 14px;
+  color: white;
 }
 
 .footer-section h2 {
-    color:white;
-    font-family: fangsong;
-    margin: 10px 0px;
+  color: white;
+  font-family: fangsong;
+  margin: 10px 0px;
 }
 
-
 .footcont p {
-    margin: 0px 0px 8px;
+  margin: 0px 0px 8px;
 }
 
 .form {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    margin: 20px;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  margin: 20px;
 }
 
 .parallex-img {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
-
 
 .background-ovelay {
-    background: linear-gradient(75deg, rgba(54, 86, 116, 0.5882352941), rgba(166, 173, 29, 0.3490196078)), rgba(54, 86, 116, 0.5882352941) center center/cover no-repeat scroll;
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    height: 100%;
+  background: linear-gradient(75deg, rgba(54, 86, 116, 0.5882352941), rgba(166, 173, 29, 0.3490196078)), rgba(54, 86, 116, 0.5882352941) center center/cover no-repeat scroll;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 100%;
 }
+
+.footcont p {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
