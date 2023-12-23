@@ -1,6 +1,6 @@
 /*Theme Color*/
-$dark-red:                      #ca021e;
-$bronze-yellow:                 #4db2ec;
+$dark-blue:                     #0c2e8a;
+$dark-green:                    #017854;
 /*************/
 
 $black-grey:                    #2c2c2b;
@@ -10,30 +10,12 @@ $web-white:                     #FFFFFF;
 $primary-opacity:               #36567496;
 $secondary-opacity:             #a6ad1d59; 
 
-$primary:                       $dark-red;
-$secondary:                     $bronze-yellow;
+$primary:                       $dark-blue;
+$secondary:                     $dark-green;
 $tertiary:                      #F1F1F1;
 
 $primary-hover:                 #384756;
 $secondary-hover:               #82871a;  
-$tertiary-hover:                #e8e8e8;
-
-$body-text-color:               $web-black;
-$header-color:                  $web-black;
-
-$corporate-secondary-grey:      #474747;
-$corporate-primary-grey:        #d0d0d0;
-
-$web-black-shades:              #333333;
-$web-white-shades:              $corporate-primary-grey;
-
-
-$mobile-nav-border:             #e3e2de;
-$footer-darker-color:           #f1f1f1;
-
-$blue-tint:                     #aea7b2;
-$light-grey:                    #F1F1F1;
-$dark-grey:                     #949494;
 
 /***** Override SASS colour *****/
 $info:                          $primary;
