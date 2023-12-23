@@ -37,7 +37,7 @@
             </div>
             <!-- Get Default Content Template -->
             <?php //get_template_part('template-parts/most-popular-news'); ?>
-            <div id="content" role="main">
+            <div class="post-content" role="main">
                <?php while ( have_posts() ) : the_post(); ?>     
                <?php // Get Standard Comp	onents
                   if( have_rows('default-content') ):
@@ -47,6 +47,19 @@
                      endwhile;
                   endif; ?>	
                <?php endwhile; // end of the loop. ?>
+
+
+               <?php 
+					while ( have_posts() ) :
+						the_post();
+						the_post_navigation(
+							array(
+								'prev_text' => '<span class="nav-subtitle">' . esc_html__( '<< Previous Blogs', 'cwt' ),
+								'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next Blogs >>', 'cwt' ),
+							)
+						);
+					endwhile; // End of the loop.
+					?> 
             </div>
             <!-- #content -->
          </div>

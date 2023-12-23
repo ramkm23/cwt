@@ -1327,5 +1327,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #017854;
   font-size: 20px;
 }
+.single-page-template .post-content {
+  margin: 20px 0px;
+}
+.single-page-template .post-content .nav-previous, .single-page-template .post-content .nav-next {
+  float: left;
+  margin: 0px 10px 20px;
+  background: #ededed;
+  padding: 1px 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
