@@ -2,10 +2,15 @@
 .single-page-template
 {
     h1,h2 {
-        color: $primary;
-        margin: 20px 0px;
+        color: $primary;    
         font-size: 25px;
         font-weight: bold;
+    }
+    .publish-date {
+        span {
+            color: $secondary;
+            font-weight: bold;
+        }
     }
     .post-featureimage {
         img {

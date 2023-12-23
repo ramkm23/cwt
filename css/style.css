@@ -1297,8 +1297,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-page-template h1, .single-page-template h2 {
   color: #0c2e8a;
-  margin: 20px 0px;
   font-size: 25px;
+  font-weight: bold;
+}
+.single-page-template .publish-date span {
+  color: #017854;
   font-weight: bold;
 }
 .single-page-template .post-featureimage img {

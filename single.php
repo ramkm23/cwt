@@ -27,6 +27,7 @@
       <div class="row">
          <div class="col-sm-8">
             <h1 class="page-title"><?php the_title() ?></h1>
+            <p class="publish-date"><span>Publish Date: </span><?php the_date(); ?></p>
             <div class="post-featureimage">
                <?php
                   if ( has_post_thumbnail() ) :
