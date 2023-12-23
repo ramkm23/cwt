@@ -25,7 +25,7 @@
 <div class="single-page-template">   
    <div class="container">
       <div class="row">
-         <div class="col-sm-8">
+         <div class="col-sm-9">
             <h1 class="page-title"><?php the_title() ?></h1>
             <p class="publish-date"><span>Publish Date: </span><?php the_date(); ?></p>
             <div class="post-featureimage">
@@ -63,7 +63,7 @@
             </div>
             <!-- #content -->
          </div>
-         <div class="col-sm-4">
+         <div class="col-sm-3">
             <h2 class="categoryname"><span>Recent Blogs</span></h2>
             <?php 
                $args = array( 'posts_per_page' => '6' );
