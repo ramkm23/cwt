@@ -145,7 +145,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 
 h1,
@@ -1300,12 +1300,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 25px;
   font-weight: bold;
 }
+.single-page-template h1 {
+  margin: 0px;
+}
 .single-page-template .publish-date span {
   color: #017854;
   font-weight: bold;
 }
 .single-page-template .post-featureimage img {
   width: 100%;
+  height: auto;
 }
 .single-page-template .recent-popular-post {
   clear: both;
