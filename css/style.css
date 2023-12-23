@@ -1286,4 +1286,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
 }
 
+.single-page-template .post-featureimage img {
+  width: 100%;
+}
+.single-page-template .recent-popular-post {
+  clear: both;
+}
+.single-page-template .recent-popular-post img {
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  border-radius: 50%;
+}
+.single-page-template .recent-popular-post p {
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

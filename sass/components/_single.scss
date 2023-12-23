@@ -1,0 +1,25 @@
+
+.single-page-template
+{
+    .post-featureimage {
+        img {
+            width: 100%;
+        }
+    }
+    .recent-popular-post {
+        clear: both;
+        img {
+            float: left;
+            width: 80px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        p {
+            font-weight: bold;
+            color: green;
+            font-size: 20px;
+        }
+    }
+}
