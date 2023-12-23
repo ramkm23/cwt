@@ -13,7 +13,15 @@
     */
    
    get_header();
-   ?>
+?>
+<div class="breadcrumb">
+   <div class="container">
+      <?php // Get BreadCrumb Component
+         get_template_part('template-parts/breadcrumbs');
+      ?>
+      <?php the_breadcrumb(); ?>
+   </div>   
+</div>
 <div class="single-page-template">   
    <div class="container">
       <div class="row">

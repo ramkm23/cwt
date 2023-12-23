@@ -1286,6 +1286,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
 }
 
+.breadcrumb ul {
+  margin: 0px;
+  padding: 0px;
+}
+.breadcrumb ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.single-page-template h1, .single-page-template h2 {
+  color: #0c2e8a;
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
 .single-page-template .post-featureimage img {
   width: 100%;
 }
@@ -1302,7 +1317,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .single-page-template .recent-popular-post p {
   font-weight: bold;
-  color: green;
+  color: #017854;
   font-size: 20px;
 }
 

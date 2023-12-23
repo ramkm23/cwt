@@ -1,6 +1,12 @@
 
 .single-page-template
 {
+    h1,h2 {
+        color: $primary;
+        margin: 20px 0px;
+        font-size: 25px;
+        font-weight: bold;
+    }
     .post-featureimage {
         img {
             width: 100%;
@@ -18,7 +24,7 @@
         }
         p {
             font-weight: bold;
-            color: green;
+            color: $secondary;
             font-size: 20px;
         }
     }
