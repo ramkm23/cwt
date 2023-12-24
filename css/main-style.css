@@ -1322,6 +1322,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1.5;
 }
 
+.blogpage-title {
+  margin-bottom: 20px !important;
+}
+
 .single-page-template h1, .single-page-template h2 {
   color: #0c2e8a;
   font-size: 25px;

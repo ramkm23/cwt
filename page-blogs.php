@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="page-title"><?php the_title() ?></h1>
+                <h1 class="blogpage-title"><?php the_title() ?></h1>
             </div>
             <div class="col-sm-9">
                 <div class="row">
