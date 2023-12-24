@@ -46,8 +46,17 @@
                                         <p class="publish-date"><span>Publish Date: </span><?php the_date(); ?></p>
                                 </div>
                             </a>
+                            <div class="post-shortcontent">
+                            <?php 
+                            the_excerpt();
+                            echo '<a href="' . esc_url( get_the_permalink() ) . '"> Read More</a>';
+                            ?>
+                            </div>
                         </div>
                     <?php endwhile; ?>
+
+
+                    
                 </div>
             </div>
             <div class="col-sm-3">
