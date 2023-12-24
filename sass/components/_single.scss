@@ -25,16 +25,16 @@
         clear: both;
         img {
             float: left;
-            width: 80px;
+            width: 60px;
             margin-right: 10px;
-            margin-bottom: 10px;
-            height: 80px;
+            height: 60px;
             border-radius: 50%;
         }
         p {
             font-weight: bold;
             color: $secondary;
-            font-size: 20px;
+            font-size: 16px;
+            line-height: 1.5;
         }
     }
     .post-content {
