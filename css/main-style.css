@@ -1346,9 +1346,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 25px;
   font-weight: bold;
 }
-.single-page-template h1 {
-  margin: 0px;
-}
 .single-page-template .publish-date span {
   color: #017854;
   font-weight: bold;
