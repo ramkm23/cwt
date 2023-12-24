@@ -1299,6 +1299,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   height: auto;
 }
+.bloglistpage h2 {
+  font-size: 18px !important;
+  margin: 10px 0px 5px;
+}
+
+.recent-popular-post {
+  clear: both;
+  margin: 25px 0px;
+}
+.recent-popular-post img {
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+  height: 60px;
+  border-radius: 50%;
+}
+.recent-popular-post p {
+  font-weight: bold;
+  color: #017854;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 .single-page-template h1, .single-page-template h2 {
   color: #0c2e8a;
@@ -1315,22 +1337,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-page-template .post-featureimage img {
   width: 100%;
   height: auto;
-}
-.single-page-template .recent-popular-post {
-  clear: both;
-}
-.single-page-template .recent-popular-post img {
-  float: left;
-  width: 60px;
-  margin-right: 10px;
-  height: 60px;
-  border-radius: 50%;
-}
-.single-page-template .recent-popular-post p {
-  font-weight: bold;
-  color: #017854;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .single-page-template .post-content {
   margin: 20px 0px;

@@ -21,22 +21,6 @@
             height: auto;
         }
     }
-    .recent-popular-post {
-        clear: both;
-        img {
-            float: left;
-            width: 60px;
-            margin-right: 10px;
-            height: 60px;
-            border-radius: 50%;
-        }
-        p {
-            font-weight: bold;
-            color: $secondary;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-    }
     .post-content {
         margin: 20px 0px;
         .nav-previous, .nav-next {
