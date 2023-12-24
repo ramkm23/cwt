@@ -46,6 +46,9 @@
                                         <p class="publish-date"><span>Publish Date: </span><?php the_date(); ?></p>
                                 </div>
                             </a>
+                            <div class="post-shortcontent">
+                                <?php the_excerpt(); ?>
+                            </div>
                         </div>
                     <?php endwhile; ?>
                 </div>
