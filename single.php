@@ -38,17 +38,7 @@
             <!-- Get Default Content Template -->
             <?php //get_template_part('template-parts/most-popular-news'); ?>
             <div class="post-content" role="main">
-               <?php while ( have_posts() ) : the_post(); ?>     
-               <?php // Get Standard Comp	onents
-                  if( have_rows('default-content') ):
-                     while ( have_rows('default-content') ) : the_row();
-                        $section_path = 'template-parts/'.get_row_layout();
-                        get_template_part($section_path);
-                     endwhile;
-                  endif; ?>	
-               <?php endwhile; // end of the loop. ?>
-
-
+               <p><?php the_content(); ?></p>
                <?php 
 					while ( have_posts() ) :
 						the_post();
