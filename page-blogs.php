@@ -40,7 +40,7 @@
                             <a href="<?php echo get_permalink() ?>">
                                 <div class="bloglistpage">
                                         <?php if ( has_post_thumbnail() ) : ?>
-                                            <?php the_post_thumbnail('thumbnail') ?>
+                                            <?php the_post_thumbnail() ?>
                                         <?php endif ?> 
                                         <h2><?php the_title() ?></h2>
                                         <p class="publish-date"><span>Publish Date: </span><?php the_date(); ?></p>
