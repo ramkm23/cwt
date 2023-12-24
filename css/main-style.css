@@ -1326,6 +1326,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px !important;
 }
 
+.post-shortcontent {
+  margin-bottom: 20px;
+}
+.post-shortcontent a {
+  border-radius: 4px;
+  background-color: #0c2e8a;
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.post-shortcontent a:hover {
+  color: #FFFFFF;
+  background-color: #017854;
+}
+
 .single-page-template h1, .single-page-template h2 {
   color: #0c2e8a;
   font-size: 25px;

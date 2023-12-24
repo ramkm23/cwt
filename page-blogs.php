@@ -47,10 +47,16 @@
                                 </div>
                             </a>
                             <div class="post-shortcontent">
-                                <?php the_excerpt(); ?>
+                            <?php 
+                            the_excerpt();
+                            echo '<a href="' . esc_url( get_the_permalink() ) . '"> Read More</a>';
+                            ?>
                             </div>
                         </div>
                     <?php endwhile; ?>
+
+
+                    
                 </div>
             </div>
             <div class="col-sm-3">

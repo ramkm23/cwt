@@ -169,7 +169,7 @@ if( function_exists('acf_add_options_page') ) {
 /** Remove home page main editor */
 function hide_editor() {
 	remove_post_type_support('page', 'editor');
-	remove_post_type_support('post', 'editor');
+	//remove_post_type_support('post', 'editor');
 }
 add_action( 'admin_init', 'hide_editor' );
 
@@ -190,3 +190,8 @@ function cwt_scripts() {
 	//wp_enqueue_script('up-college-program-search-js', get_theme_file_uri('/js/programSearch.js'), array('jquery'), '1.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'cwt_scripts' );
+
+function mytheme_custom_excerpt_length( $length ) {
+	return 20;
+	}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );

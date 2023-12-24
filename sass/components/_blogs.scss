@@ -29,3 +29,19 @@
 .blogpage-title {
     margin-bottom: 20px !important;
 }
+
+.post-shortcontent {
+    margin-bottom: 20px;
+    a {
+        border-radius: 4px;
+        background-color: $primary;
+        color: white;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    a:hover {
+        color: $web-white;
+        background-color: $secondary;
+    }
+    
+}
