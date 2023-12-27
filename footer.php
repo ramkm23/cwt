@@ -30,7 +30,7 @@
   <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/main.js"></script>
   
   
-<script>(function(w, d) { w.CollectId = "5b8f738b17717184f1710d8f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<!--<script>(function(w, d) { w.CollectId = "5b8f738b17717184f1710d8f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
 <?php wp_footer(); ?>
 </body>
 </html>
