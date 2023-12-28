@@ -51,7 +51,7 @@
             
         </div>
         <div class="col-sm-4 footcont">
-            <?php if( have_rows( 'footer-contact-us', 'option' ) ): ?> new d
+            <?php if( have_rows( 'footer-contact-us', 'option' ) ): ?>
                 <div class="about-us-info">
                     <?php while( have_rows( 'footer-contact-us', 'option' ) ): the_row(); ?>
                         <!-- About Heading -->
