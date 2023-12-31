@@ -116,6 +116,10 @@ body a:hover {
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+section {
+  padding: 30px 0px;
+}
+
 .mfp-img {
   max-height: 100% !important;
 }
@@ -748,46 +752,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
-/* Clients Section
---------------------------------*/
-#clients {
-  padding: 30px 0;
-}
-
-#clients img {
-  max-width: 90%;
-  opacity: 0.6;
-  border: 2px solid #0c2e8a;
-  transition: 0.3s;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-  border: 2px solid #017854;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #50d8af;
-}
-
 /* Our Portfolio Section
 --------------------------------*/
 #portfolio {
@@ -1282,19 +1246,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
 }
 
-.footcont p {
-  font-size: 15px;
-}
-
-.breadcrumb ul {
-  margin: 0px;
-  padding: 0px;
-}
-.breadcrumb ul li {
-  list-style-type: none;
-  display: inline;
-}
-
 .bloglistpage img {
   width: 100%;
   height: auto;
@@ -1339,6 +1290,60 @@ body.mobile-nav-active #mobile-nav-toggle {
 .post-shortcontent a:hover {
   color: #FFFFFF;
   background-color: #017854;
+}
+
+.breadcrumb ul {
+  margin: 0px;
+  padding: 0px;
+}
+.breadcrumb ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* Clients Section
+--------------------------------*/
+#clients {
+  padding: 30px 0;
+  margin-top: 30px;
+  background-color: #0c2e8a;
+  color: #FFFFFF;
+}
+#clients h2 {
+  color: #FFFFFF;
+}
+#clients img {
+  max-width: 90%;
+  opacity: 0.9;
+  border: 2px solid #017854;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 15px 0;
+}
+#clients img:hover {
+  opacity: 1;
+  border: 2px solid #017854;
+}
+#clients .owl-nav, #clients .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+#clients .owl-dot.active {
+  background-color: #50d8af;
+}
+
+.footcont p {
+  font-size: 15px;
 }
 
 .single-page-template h1, .single-page-template h2 {
