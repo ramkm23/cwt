@@ -262,7 +262,14 @@
                                     },
                                     "choices": {
                                         "<i class=\"fa fa-bar-chart\"><\/i>": "Chart",
-                                        "<i class=\"fa fa-picture-o\"><\/i>": "Picture"
+                                        "<i class=\"fa fa-picture-o\"><\/i>": "Picture",
+                                        "<i class=\"fa fa-users\"><\/i>": "Projects",
+                                        "<i class=\"fa fa-cloud-upload\"><\/i>": "cloud",
+                                        "<i class=\"fa fa-heart-o\"><\/i>": "Loved",
+                                        "<i class=\"fa fa-rss\"><\/i>": "RSS",
+                                        "<i class=\"fa fa-wordpress\"><\/i>": "Wordpress",
+                                        "<i class=\"fa fa-android\"><\/i>": "Android",
+                                        "<i class=\"fa fa-industry\"><\/i>": "Industry"
                                     },
                                     "default_value": false,
                                     "allow_null": 1,
@@ -1205,5 +1212,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1704211576
+    "modified": 1704214882
 }
