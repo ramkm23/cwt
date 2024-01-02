@@ -336,6 +336,128 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_659422a0ea4d8": {
+                    "key": "layout_659422a0ea4d8",
+                    "name": "counter-details",
+                    "label": "Counter details",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_659422a0ea4e0",
+                            "label": "Include counter details",
+                            "name": "include-counter-details",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_659422a0ea4db",
+                            "label": "Counter details items",
+                            "name": "counter-details-items",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "row",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_659422a0ea4dd",
+                                    "label": "Icons",
+                                    "name": "counter-details-item-icons",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "<i class=\"fa fa-bar-chart\"><\/i>": "Chart",
+                                        "<i class=\"fa fa-picture-o\"><\/i>": "Picture",
+                                        "<i class=\"fa fa-users\"><\/i>": "Projects",
+                                        "<i class=\"fa fa-cloud-upload\"><\/i>": "cloud",
+                                        "<i class=\"fa fa-heart-o\"><\/i>": "Loved",
+                                        "<i class=\"fa fa-rss\"><\/i>": "RSS"
+                                    },
+                                    "default_value": false,
+                                    "allow_null": 1,
+                                    "multiple": 0,
+                                    "ui": 0,
+                                    "return_format": "value",
+                                    "ajax": 0,
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_659422a0ea4dc",
+                                    "label": "Number",
+                                    "name": "counter-details-item-heading",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_659422a0ea4de",
+                                    "label": "Text",
+                                    "name": "counter-details-item-text",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_65458fd000544": {
                     "key": "layout_65458fd000544",
                     "name": "client-logo-slider",
@@ -1083,5 +1205,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1704050142
+    "modified": 1704211576
 }

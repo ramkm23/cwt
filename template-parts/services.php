@@ -28,7 +28,7 @@
                   <h3 class="title"><?php echo get_sub_field('service-item-heading'); ?></h3>
                <?php endif; ?>
                <?php if(!empty(get_sub_field('service-item-text'))): ?>
-                  <p class="description"">
+                  <p class="description">
                      <?php echo get_sub_field('service-item-text'); ?>
                   </p>
                <?php endif; ?>
