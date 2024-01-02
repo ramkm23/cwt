@@ -1290,6 +1290,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline;
 }
 
+#counter-details {
+  background-color: #0c2e8a;
+  color: #FFFFFF;
+}
+#counter-details .box {
+  text-align: center;
+}
+#counter-details h3 {
+  font-size: 39px;
+  font-weight: bold;
+  margin: 0px;
+}
+#counter-details .icon i {
+  padding: 8px;
+  background: #FFFFFF;
+  color: #0c2e8a;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
 /* Clients Section
 --------------------------------*/
 #clients {
