@@ -45,7 +45,7 @@ get_header();
 						<?php if ( has_post_thumbnail() ) : ?>
 							<?php the_post_thumbnail('thumbnail') ?>
 						<?php endif ?> 
-						<h3 class="entry-title"><?php the_title() ?></h3>
+						<p class="entry-title"><?php the_title() ?></p>
 						
 					</div>
 				</a>
