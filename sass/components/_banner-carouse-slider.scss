@@ -57,19 +57,19 @@
         }
         .btn-get-started {
             background: $primary;
-            border: 2px solid $primary;
+            border: 2px solid $web-white;
         }
         .btn-get-started:hover {
-            background: none;
-            color: $primary;
+            background: $secondary;
+            border: 2px solid $web-white;
         }
         .btn-projects {
             background: $secondary;
-            border: 2px solid #50d8af;
+            border: 2px solid $web-white;
         }
         .btn-projects:hover {
-            background: none;
-            color: #0a8f67;
+            background: $primary;
+            border: 2px solid $web-white;
         }
 
     }
