@@ -82,6 +82,13 @@ function cwt_setup() {
 		)
 	);
 
+	function register_my_menus() {
+		register_nav_menus(
+		  array(
+			'primary-menu' => __('Primary Menu')
+		  )
+		);
+	  }
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
 
