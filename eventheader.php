@@ -20,5 +20,18 @@
 	<?php if( !empty( get_field( 'other-site-body-script', 'option') ) ): ?>
 	  <?php echo get_field( 'other-site-body-script', 'option' ); ?>
 	<?php endif; ?>
-  <?php get_template_part( 'template-parts/type-of-header' );?>
+  <?php if( get_field( 'choose-header-type','option') == 'Horizontal' ): ?>
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+            <h1><a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/C%20logo.png"></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+            </div>
+            <nav id="nav-menu-container">
+                <?php get_template_part( 'template-parts/menu-list' );?>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header>
+<?php endif; ?>
   <!-- #header -->
