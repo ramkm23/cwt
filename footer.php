@@ -9,7 +9,7 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  <!-- JavaScript Libraries -->
+  <!-- JavaScript Libraries --> 
   <script src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/jquery/jquery.min.js"></script>
   <script src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/jquery/jquery-migrate.min.js"></script>
   <script src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
