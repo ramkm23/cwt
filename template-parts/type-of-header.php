@@ -2,7 +2,7 @@
     <header id="header">
         <div class="container">
             <div id="logo" class="horizontaleader pull-left">
-            <a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ibj-logonew.png"></a>
+            <a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/cwt-logo.png"></a>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
